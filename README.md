@@ -1,10 +1,15 @@
-iphone-app-backup
+iPhone App Backup
 =================
 
-A quick hack to backup a certain directory (and subdirectories) from an iPhone application. 
+![alt tag](http://ronanturner.net/statuses/works-yes.png)
+![alt tag](http://ronanturner.net/statuses/status-inactive.png)
 
-Note: As this tool is highly individualised to my requirements, it's highly tailored - i'd advise against using 
-      this as is!
+1. Overview
+--------
+
+Note: Whilst marked as working because, as far as I'm aware, nothing has changed with iDevice backing up, this is a highly tailored script to my requirements. Be careful when attempting to use as it will likely need playing with to support your needs.
+
+A quick hack to backup a certain directory (and subdirectories) from an iPhone application. 
 
 Takes the following arguments:
 
@@ -12,12 +17,5 @@ Takes the following arguments:
 * Remote Path:           The root directory from the application base on the phone to backup
 * Local Path:            The local directory to backup to
 * Message:               The git commit message to use when commiting the backup directory.
-
-=================
-
-Warning: As mentioned above, this is purely an individual quick utility hack to aid my workflow - not something advised
-         to be used out of the box!
          
-=================
-
 Thanks goes to Tristero and other folks over at BitBucket for the MobileDeviceAccess objective-c library.
